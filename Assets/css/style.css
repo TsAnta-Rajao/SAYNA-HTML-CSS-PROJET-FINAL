@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+    --copyright-gray: #000000;
+}
+
+.orange {
+    color: var(--primary-color);
+}
+
+.blue {
+    color: var(--primary-blue);
+}
+
+
+/* ***************************************HEADER******************************** */
+
+nav {
+    background: var(--primary-color);
+}
+
+.nav-links:hover {
+    color: var(--primary-gray) !important;
+}
+
+
+/* *************************************FOOTER******************************** */
+
+footer .footer-top,
+.dark-bg {
+    background: var(--copyright-gray);
+}
+
+.footer-col a:hover {
+    color: var(--primary-color);
+    text-decoration: underline !important;
+}
+
+.footer-icons {
+    color: var(--gray-footer-btn);
+}
+
+.footer-icons:hover {
+    color: var(--primary-blue);
+}
+
+.copyright {
+    background: var(--gray-footer);
+}
+
+
+/* *******************************************INDEX PAGE CSS**************************** */
+
+.index-banner-bg {
+    background: url('../Images/group-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: 20%;
+}
+
+section>.events {
+    background: 100% no-repeat;
+    background-size: 100%;
+}
+
+.boutton1 {
+    margin-top: 3%;
+    background: var(--light-gray);
+    opacity: 0.7;
+}
+
+
+/* deuxième partie index */
+
+.deuxième {
+    background: var(--light-gray);
+    margin-top: -4%;
+}
+
+
+/* troisième partie */
+
+.part1 {
+    background: var(--primary-color);
+}
+
+.part2 {
+    background: var(--primary-gray);
+}
+
+.part3 {
+    background: var(--primary-blue);
+}
+
+.gray-bg {
+    background-color: var(--primary-gray);
+}
+
+.orange-bg {
+    background-color: var(--primary-color);
+}
+
+.blue-bg {
+    background-color: var(--primary-blue);
+}
+
+.m-overlay1-index {
+    background: url(../Images/group-4.jpg) no-repeat;
+    background-size: cover;
+}
+
+.m-overlay2-index {
+    background: url(../Images/group-2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.m-overlay3-index {
+    background: url(../Images/group-3.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.round {
+    border-radius: 50px;
+}
+
+
+/* *******************************************ABOUT PAGE CSS**************************** */
+
+.about-details {
+    background: var(--light-gray);
+}
+
+.about-details:hover {
+    text-decoration: underline;
+}
+
+
+/* *******************************************SEARCH PAGE CSS**************************** */
+
+div.search-form-bg {
+    background: var(--light-gray);
+}
+
+div.search-form-bg h1 {
+    color: var(--primary-gray);
+}
+
+label {
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+
+/* gallery */
+
+.gallery-item {
+    background: var(--primary-color);
+    max-width: 90vw;
+    overflow: hidden;
+}
